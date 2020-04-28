@@ -1,5 +1,5 @@
 let scl = 60; //SLIDER?
-let inc = 0.001; // BETWEEN 0.01 & 0.1
+let inc = 0.01; // BETWEEN 0.01 & 0.1
 let numOfP = 2000;
 let rows,cols;
 let fr;
@@ -30,7 +30,7 @@ flowfield = new Array(cols * rows);
 }
 
 function draw() {
-  //background(255);
+  background(255);
 
 
   let yoff = 0;
@@ -57,7 +57,7 @@ function draw() {
 
     }
     yoff += inc;
-    zoff += 0.0003; //BETWEEN 0.0001 & 0.001
+    zoff += 0.003; //BETWEEN 0.0001 & 0.001
   }
 
   //FUNCTION APPLIED TO Particules
