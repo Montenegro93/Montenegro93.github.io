@@ -1,6 +1,6 @@
-let scl = 50; //SLIDER?
-let inc = 0.01; // BETWEEN 0.01 & 0.1
-let numOfP = 4000;
+let scl = 60; //SLIDER?
+let inc = 0.001; // BETWEEN 0.01 & 0.1
+let numOfP = 2000;
 let rows,cols;
 let fr;
 let particules = [];
@@ -30,7 +30,7 @@ flowfield = new Array(cols * rows);
 }
 
 function draw() {
-  background(255);
+  //background(255);
 
 
   let yoff = 0;
